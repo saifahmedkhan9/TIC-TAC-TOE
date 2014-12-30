@@ -8,6 +8,8 @@ TIC-TAC-TOE
 
 * Player who enters his name firstly will start the game.
 
+![Snap1](/image/win.jpg)
+
 * MENU BAR :
  - You can restart the game Anytime by :
     - [x] Using 'CTRL+R' Shortcut key. OR
