@@ -1,9 +1,9 @@
-TIC-TAC-TOE
+**TIC-TAC-TOE**
 ===========
 
 ![Snap1](/image/win.JPG)
 
-* UI
+* **UI**
  - You can modify the Layout and Foreground Color of Button.
  
 * Different Colors for 'X' and 'O'.
