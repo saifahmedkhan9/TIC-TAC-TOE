@@ -1,7 +1,7 @@
 **TIC-TAC-TOE**
 ===========
 
-* **UI**
+#### **UI**
  - You can modify the Layout and Foreground Color of Button.
  
 * Different Colors for 'X' and 'O'.
