@@ -10,7 +10,7 @@
 
 ![Snap1](/image/win.JPG)
 
-* MENU BAR :
+#### **MENU BAR** :
  - You can restart the game Anytime by :
     - [x] Using 'CTRL+R' Shortcut key. OR
     - [x] Clicking 'Restart' MenuItem In Menu Bar.
