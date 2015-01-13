@@ -11,11 +11,26 @@ class Tic_Tac
 	JMenu menu, submenu;
 	JMenuItem menuItem,exit,menuItem1;
 	int player=1,i,first_time=0;
-	int arr[];		
+	int arr[];	
+	Random rand=new Random();
+	int r=rand.nextInt(100);	
 	Tic_Tac()
 	{
+		// System.out.println(r);
 		final String player1 = JOptionPane.showInputDialog("First Player Name(Starts First):");
 		final String player2 = JOptionPane.showInputDialog("Second Player Name:");	
+		JOptionPane.showMessageDialog(null,"Tossing.. Press<Enter> to see result","Lets Toss..!!!",JOptionPane.PLAIN_MESSAGE);
+		if(r%2==0)
+		{
+			player=1;
+			JOptionPane.showMessageDialog(null,player1+" You Won the Toss","Congrats",JOptionPane.PLAIN_MESSAGE);
+
+		}
+		else
+		{
+			player=0;
+			JOptionPane.showMessageDialog(null,player2+" You Won the Toss","Congrats",JOptionPane.PLAIN_MESSAGE);
+		}
 		jb=new JButton[9];
 		jfr= new JFrame("TIC TAC TOE (" + player1 + " Vs " + player2 + " )");
 		arr=new int[50];
@@ -107,7 +122,6 @@ class Tic_Tac
                 JPanel p = new JPanel( new BorderLayout() );
                 int width = 175;
                 String s = pt1 + width + pt2;
-
                 JOptionPane.showMessageDialog(null, s);
 			}
 		});
